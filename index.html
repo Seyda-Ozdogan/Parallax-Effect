@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>parallax</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="hero-image"></div>
+    <div class="rellax parallax-el" data-rellax-speed="4"></div>
+    <div class="rellax text" data-rellax-speed="10"></div>
+    <div class="rellax clouds" data-rellax-speed="8"></div>
+    <div class="whitespace"></div>
+    <div class="rellax content" data-rellax-speed="10">
+      <div class="row content-container">
+        <div class="col-md-4 text-container ">
+          <h4>The City</h4>
+          <p>TEXT</p>
+          <a href="#" class="btn explore-btn">Explore More</a>
+        </div>
+        <div class="col-md-8 img-container">
+          <div class="row">
+            <div class="col-md-3 img-small">
+              <img src="image4.png" alt="">
+            </div>
+
+            <div class="col-md-4">
+              <img src="images5.png" alt="">
+            </div>
+
+            <div class="col-md-3 img-small">
+              <img src="images6.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="rellax.min.js"></script>
+    <script type="text/javascript">
+      var rellax = new Rellax('.rellax')
+    </script>
+  </body>
+</html>
